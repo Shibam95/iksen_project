@@ -1,0 +1,44 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1600px}
+      
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+.sidenav ul{
+  padding: 0 !important;
+  list-style: none;
+}
+.sidenav{
+  background: url(https://t3.ftcdn.net/jpg/03/48/55/20/360_F_348552050_uSbrANL65DNj21FbaCeswpM33mat1Wll.jpg);
+  width: 100%;
+}
+.admin-svg{
+  background: #7AB730;
+  display: inline-block;
+  padding: 12px 13px;
+  border-radius: 50%;
+}
+.cstm-btn{
+  background: burlywood;
+  color: black !important;
+  text-decoration: none;
+}
+.cstm-btn a{
+  text-decoration: none;
+}
+.cstm-btn:hover{
+  background: yellowgreen;
+}
+/* Set black background color, white text and some padding */
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
+}
